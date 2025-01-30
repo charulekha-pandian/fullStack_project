@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.background-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    z-index: -1;
+}
+
+.content {
+    display: flex;
+    height: 80%;
+    width: 87%;
+    border: 2px solid #ccc; 
+    border-radius: 50px; 
+    
+}
+
+
+.left-content,
+.right-content {
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+}
+.left-content {
+    flex: 35%;
+    border-right: 2px solid #ccc;
+    /* background: linear-gradient(transparent 0%,black); */
+    background: black;
+    border-top-left-radius: 48.5px;
+    border-bottom-left-radius: 48.5px;
+    background-size: 200% 100%;
+    transition: background-position 0.5s;
+}
+.right-content {
+    flex: 65%;
+    background: linear-gradient(transparent 50%, #7132d8);
+    border-top-right-radius: 48.5px;
+    border-bottom-right-radius: 48.5px;
+    background-size: 200% 100%;
+    transition: background-position 0.5s;
+}
+
+

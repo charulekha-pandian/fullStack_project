@@ -1,0 +1,49 @@
+.form-container {
+    min-height: 100vh; /* Make sure the container takes the full viewport height */
+    overflow: hidden;
+}
+
+.update-form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .update-form div {
+    margin-bottom: 15px;
+  }
+  
+  .update-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .update-form input,
+  .update-form select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  .update-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .update-form button:hover {
+    background-color: #218838;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }

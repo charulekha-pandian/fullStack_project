@@ -1,0 +1,31 @@
+.layout {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #f4f4f4;
+  padding: 15px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.submenu-toggle {
+  cursor: pointer;
+}
+
+.submenu {
+  padding-left: 20px;
+}
+
+.submenu li {
+  list-style-type: none;
+}
+
+.submenu li a {
+  text-decoration: none;
+  color: #333;
+}
