@@ -21,3 +21,7 @@ Fronetnd : React.js <br/>
 Backend : Java with Spring Boot <br/>
 Database : MySQL <br/>
 API : Rest Ful API <br/>
+
+NOTE :
+---------
+This contains the flowchart, ER-diagram and the front-end for 2 stake holders including the authentication(Only for my organisation).
